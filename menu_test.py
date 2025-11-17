@@ -1,5 +1,4 @@
 import cv2
-cv2.__version__ = "4.5.5" 
 import sys
 import pyautogui
 import numpy as np
