@@ -1,7 +1,0 @@
-pyautogui
-opencv-python
-numpy
-keyboard
-PyQt5
-Pillow
-pyscreeze
