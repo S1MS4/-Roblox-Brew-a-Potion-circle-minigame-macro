@@ -1,6 +1,7 @@
+import cv2
+cv2.__version__ = "4.5.5" 
 import sys
 import pyautogui
-import cv2
 import numpy as np
 import time
 import keyboard
