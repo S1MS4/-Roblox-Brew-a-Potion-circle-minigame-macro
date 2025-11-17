@@ -24,6 +24,18 @@ An advanced automation tool for Roblox that uses computer vision to detect and c
    pip install -r requirements.txt
    ```
 
+   **Note:** For users who prefer not to install Python dependencies, a pre-built executable (.exe) is available in the `dist/` folder. Simply download the repository and run the executable directly—no installation of requirements needed.
+
+## Dependencies
+
+- **pyautogui**: Mouse and keyboard automation for simulating clicks and inputs
+- **opencv-python**: Computer vision library for detecting circles on screen
+- **numpy**: Numerical computations and array operations, used with OpenCV for image processing
+- **keyboard**: Handling hotkey controls for pausing/resuming and mode switching
+- **PyQt5**: Framework for the graphical user interface (GUI)
+- **Pillow**: Image processing and manipulation for screenshots and debug images
+- **pyscreeze**: Screenshot capture functionality, integrated with pyautogui
+
 ## Usage
 
 ### GUI Version (Recommended)
