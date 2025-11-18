@@ -7,7 +7,7 @@ An advanced automation tool for Roblox that uses computer vision to detect and c
 
 ## Features
 
-- **Computer Vision Detection**: Uses OpenCV to detect circles in real-time
+- **Computer Vision Detection**: Uses OpenCV's Hough Circle Transform to detect circles in real-time. Configured with radius range MIN_RADIUS = 50, MAX_RADIUS = 60 to limit false positives, optimized for fullscreen and fullscreen borderless aspect ratios. Users may need to readjust the radius range for different aspect ratios or to fit different tasks.
 - **Two Click Modes**:
   - Human-like: Smooth curved movements with random delays
   - Instaclick: Fast, precise clicks for speed
@@ -24,7 +24,7 @@ An advanced automation tool for Roblox that uses computer vision to detect and c
    pip install -r requirements.txt
    ```
 
-   **Note:** For users who prefer not to install Python dependencies, a pre-built executable (.exe) is available in the `dist/` folder. Simply download the repository and run the executable directly—no installation of requirements needed.
+   **Note:** For users who prefer not to install Python dependencies, a pre-built executable (.exe) is available in the `release` tab.
 
 ## Dependencies
 
