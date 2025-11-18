@@ -28,13 +28,15 @@ An advanced automation tool for Roblox that uses computer vision to detect and c
 
 ## Dependencies
 
-- **pyautogui**: Mouse and keyboard automation for simulating clicks and inputs
-- **opencv-python**: Computer vision library for detecting circles on screen
-- **numpy**: Numerical computations and array operations, used with OpenCV for image processing
-- **keyboard**: Handling hotkey controls for pausing/resuming and mode switching
-- **PyQt5**: Framework for the graphical user interface (GUI)
-- **Pillow**: Image processing and manipulation for screenshots and debug images
-- **pyscreeze**: Screenshot capture functionality, integrated with pyautogui
+| Package | Purpose |
+|---------|---------|
+| **pyautogui** | Mouse and keyboard automation for simulating clicks and inputs |
+| **opencv-python** | Computer vision library for detecting circles on screen |
+| **numpy** | Numerical computations and array operations |
+| **keyboard** | Handling hotkey controls for pausing/resuming and mode switching |
+| **PyQt5** | Framework for the graphical user interface (GUI) |
+| **Pillow** | Image processing for screenshots and debug images |
+| **pyscreeze** | Screenshot capture functionality |
 
 ## Usage
 
